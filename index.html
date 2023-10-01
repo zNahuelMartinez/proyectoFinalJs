@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="nav">
+            <img src="./img/logo.png" alt="Logo Pokédex">
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn btn-header" id="ver-todos">Ver todos</button></li> 
+                <li class="nav-item"><button class="btn btn-header normal" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn btn-header fire" id="fire">Fire</button></li>
+                <li class="nav-item"><button class="btn btn-header water" id="water">Water</button></li>
+                <li class="nav-item"><button class="btn btn-header grass" id="grass">Grass</button></li>
+                <li class="nav-item"><button class="btn btn-header electric" id="electric">Electric</button></li>
+                <li class="nav-item"><button class="btn btn-header ice" id="ice">Ice</button></li>
+                <li class="nav-item"><button class="btn btn-header fighting" id="fighting">Fighting</button></li>
+                <li class="nav-item"><button class="btn btn-header poison" id="poison">Poison</button></li>
+                <li class="nav-item"><button class="btn btn-header ground" id="ground">Ground</button></li>
+                <li class="nav-item"><button class="btn btn-header flying" id="flying">Flying</button></li>
+                <li class="nav-item"><button class="btn btn-header psychic" id="psychic">Psychic</button></li>
+                <li class="nav-item"><button class="btn btn-header bug" id="bug">Bug</button></li>
+                <li class="nav-item"><button class="btn btn-header rock" id="rock">Rock</button></li>
+                <li class="nav-item"><button class="btn btn-header ghost" id="ghost">Ghost</button></li>
+                <li class="nav-item"><button class="btn btn-header dark" id="dark">Dark</button></li>
+                <li class="nav-item"><button class="btn btn-header dragon" id="dragon">Dragon</button></li>
+                <li class="nav-item"><button class="btn btn-header steel" id="steel">Steel</button></li>
+                <li class="nav-item"><button class="btn btn-header fairy" id="fairy">Fairy</button></li>
+            </ul>
+        </nav>
+        <div class="center pt-4">
+            <h5>Arma tu equipo Pokemon:</h5>
+        </div>
+        <div class="ordenPokebolas d-flex justify-content-center align-items-center pt-4 pb-3">
+            <div class="pokebola" id="pokebola1"></div>
+            <div class="pokebola" id="pokebola2"></div>
+            <div class="pokebola" id="pokebola3"></div>
+            <div class="pokebola" id="pokebola4"></div>
+            <div class="pokebola" id="pokebola5"></div>
+            <div class="pokebola" id="pokebola6"></div>
+            <div><button class="btn btn-danger btnOk">ok</button></div>
+        </div>
+
+        <div class="center pt-4 pb-2">
+            <h5>Equipos registrados:</h5>
+        </div>
+        <div class="equipos-container">
+
+        </div>
+    </header>
+    <main>
+        <div class="mb-4 pt-2">
+            <form id="busquedaForm" class="d-flex  justify-content-center">
+                <input class="buscador" type="text" id="buscarPokemon" placeholder="  Buscar Pokémon">
+                <button type="submit" class="btnSearch btn btn-danger"><img src="./img/lupa.svg" alt=""></button>
+            </form>
+        </div>
+              
+
+        <div id="todos">
+            <div class="pokemon-todos p-2" id="listaPokemon">
+            
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
