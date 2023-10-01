@@ -12,6 +12,6 @@ SweetAlert2 y Toastify: Agregué SweetAlert2 para mostrar notificaciones, como m
 
 En resumen, mi proyecto permite a los usuarios seleccionar sus Pokémon favoritos y armar equipos. Todo esto se hace en una interfaz fácil de usar.
 
-link del repositorio: https://github.com/zNahuelMartinez/proyectoFinalJs
+link del repositorio: https://github.com/zNahuelMartinez/proyectoFinalJs-NahuelMartinez
 
-link pages: https://znahuelmartinez.github.io/proyectoFinalJs/
+link pages: https://znahuelmartinez.github.io/proyectoFinalJs-NahuelMartinez/
