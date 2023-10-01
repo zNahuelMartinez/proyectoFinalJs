@@ -1,6 +1,6 @@
 ﻿# proyectoFinalJs
 
-Mi proyecto es una aplicación web "Pokédex". La construi utilizando tecnologías y herramientas. Dejo una breve descripción junto con las tecnologías que utilicé:
+Mi proyecto es una "Pokédex". La construi utilizando tecnologías y herramientas. Dejo una breve descripción junto con las tecnologías que utilicé:
 
 HTML y CSS: Utilicé HTML para crear la estructura de mi sitio web y CSS para darle estilo y diseño a los elementos de la interfaz de usuario. Quería que se viera fácil de usar.
 
